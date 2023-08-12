@@ -1,0 +1,36 @@
+/*universal selector*/
+* {
+    line-height: 1.5;
+}
+
+/*type selector*/
+img {
+    height: auto;
+    width: 300px;
+}
+
+/*class selector*/
+.recipe-card {
+    color: black;
+    width: 400px;
+    text-align: center;
+}
+
+/*grouping selectors*/
+.recipe-content, ul, li {
+    text-align: left;
+}
+
+/*chaining selectors*/
+.recipe-card.recipe-content {
+    background-color: blueviolet;
+    color: yellow;
+}
+
+/*descendant combinator*/
+.recipe-card .ingredients {
+    color: blue;
+}
+
+/* So I've showcased em all here, and I can get it to work...but I still don't see the use cases, or how it all goes together yet.  To be expected, I suppose...
+Cracking on...*/
