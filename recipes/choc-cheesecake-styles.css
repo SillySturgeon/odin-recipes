@@ -1,36 +1,51 @@
-/*universal selector*/
 * {
     line-height: 1.5;
-}
-
-/*type selector*/
-img {
-    height: auto;
-    width: 300px;
-}
-
-/*class selector*/
-.recipe-card {
-    color: black;
-    width: 400px;
-    text-align: center;
-}
-
-/*grouping selectors*/
-.recipe-content, ul, li {
     text-align: left;
 }
 
-/*chaining selectors*/
-.recipe-card.recipe-content {
-    background-color: blueviolet;
-    color: yellow;
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: maroon;
 }
 
-/*descendant combinator*/
-.recipe-card .ingredients {
-    color: blue;
+img {
+    width: 350px;
 }
 
-/* So I've showcased em all here, and I can get it to work...but I still don't see the use cases, or how it all goes together yet.  To be expected, I suppose...
-Cracking on...*/
+h1 {
+    margin-bottom: 50px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 4px gray;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h2, h3 {
+    margin-top: 2em;
+}
+
+.all-contents {
+    width: 550px;
+    text-align: center;
+    background-color: #FFFAFA;
+    margin: 20px auto;
+    padding: 50px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, .5); 
+}
+
+.all-contents.feature {
+    border: 2px solid black;
+
+}
+
+.all-contents a {
+    background-color: brown;
+    color: antiquewhite;
+    padding: 5px;
+}

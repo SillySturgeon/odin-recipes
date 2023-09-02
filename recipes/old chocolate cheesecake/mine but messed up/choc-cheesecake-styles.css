@@ -1,0 +1,52 @@
+/*universal selector*/
+* {
+    line-height: 1.5;
+    padding: 0px;
+    margin: 0px;
+    outline: 1px dotted red;
+}
+
+/*type selector*/
+img {
+    height: auto;
+    width: 300px;
+}
+
+
+/*class selector*/
+.recipe-card {
+    color: black;
+    width: 450px;
+    text-align: center;
+    padding: 20px;
+    margin: 20px auto;
+    border: 2px darkgray
+    background-color: beige;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+/*grouping selectors*/
+.recipe-content, ul, li {
+    text-align: left;
+}
+
+/*chaining selectors*/
+.recipe-card.recipe-content {
+    background-color: blueviolet;
+    color: yellow;
+    margin: 40px 120px 40px 0px;
+    text-align: center;
+}
+
+.recipe-card.feature.recipe-content.ingredients {
+    border: 2px darkslategray;
+    background-color: antiquewhite;
+}
+
+/*descendant combinator*/
+.recipe-card .ingredients {
+    color: rgb(8, 8, 43);
+}
+
+/* So I've showcased em all here, and I can get it to work...but I still don't see the use cases, or how it all goes together yet.  To be expected, I suppose...
+Cracking on...*/
